@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Page</title>
+    <link rel="stylesheet" href="style.css">
+<style>
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling using an ID */
+#header {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Paragraph styling using a class */
+.paragraph {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 10px;
+    border-left: 4px solid #0073e6;
+}
+
+/* Image styling */
+.image-container img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px;
+    border: 3px solid #0073e6;
+}
+
+/* Button styling */
+.button {
+    display: inline-block;
+    background-color: #0073e6;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #005bb5;
+}
+</style>
+</head>
+<body>
+    <div id="header">Welcome to My Styled Page</div>
+
+    <p class="paragraph">This is a paragraph styled using a class. It has margin, padding, and a left border.</p>
+
+    <div class="image-container">
+        <img src="example.jpg" alt="Example Image">
+    </div>
+
+    <a href="#" class="button">Click Me</a>
+</body>
+</html>
+
+
+
